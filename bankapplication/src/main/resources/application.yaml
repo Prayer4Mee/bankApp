@@ -1,0 +1,11 @@
+spring:
+  port: "8080"
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/banking_app_db?createDatabaseIfNotExist=true
+    password:
+  application:
+    name: bankapplication
+  jpa:
+    hibernate:
+      ddl-auto: update
